@@ -25,7 +25,7 @@ print 'Socket now listening'
 def clientthread(conn):
     #Sending message to connected client
     # conn.send('Welcome to the server. Receving Data...\n') #send only takes string
-    file = open("Force_Marina_2.txt", "w")
+    file = open("Force.txt", "w")
     # file1= open ("Force_RP.txt","w")
     # file2= open ("Force_RP.txt","w")
 
